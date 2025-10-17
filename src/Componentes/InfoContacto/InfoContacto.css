@@ -1,0 +1,41 @@
+
+/* -----------Contact info section---------- */
+
+.header-icon {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #000;
+    transition: color 0.2s ease;
+}
+
+.header-icon:hover {
+    color: #7e7b7b;
+}
+
+
+.info-content{
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    min-width: 200px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: red;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 470px){
+    
+    .header-icon{
+        font-size: 15px;
+    }
+}
+
+/* -----------Contact info section END---------- */

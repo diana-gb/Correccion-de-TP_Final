@@ -1,0 +1,29 @@
+    .wa-spinner {
+    display: inline-flex;
+    align-items: center;
+    --dot-color: #25D366;  
+    --size: 36px;
+    }
+
+    .wa-bubble {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #159151;
+    height: var(--size);
+    width: calc(var(--size) * 2);
+    border-radius: calc(var(--size) / 2);
+    padding: calc(var(--size) * 0.2);
+    box-sizing: border-box;
+    }
+
+    .wa-dot {
+    width: calc(var(--size) * 0.18);
+    height: calc(var(--size) * 0.18);
+    background: var(--dot-color);
+    border-radius: 50%;
+    margin: 0 calc(var(--size) * 0.08);
+    display: inline-block;
+    animation: wa-bounce 1s infinite ease-in-out;
+    opacity: 0.7;
+    }

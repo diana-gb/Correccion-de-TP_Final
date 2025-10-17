@@ -1,0 +1,104 @@
+
+   /* -----------message screen section---------- */
+
+
+.message-screen {
+      display: flex;
+      height:100vh;
+      width: 100vw;
+      background-color: #f0f2f5;
+      font-family: "Segoe UI", sans-serif;
+      flex-direction: row;
+}
+
+.message-screen_left{
+      display: flex;
+      flex-direction: column;
+      width: 400px;
+      height: 100%;
+      margin-left: 70px;
+      background-color: white;
+/*       flex: 0 0 25%;
+      max-width: 500px;
+      min-width: 300px; */
+}
+
+.message-screen_left-header{
+      display: flex;
+      width: 100%;
+      border-color: black;
+}
+
+
+.message-screen_contact-list_container {
+      width: 100%;
+      background-color: #ffffff;
+      border-right: 1px solid #d1d7db;
+      display: flex;
+      flex-direction: column;
+      overflow-y: scroll;
+}
+
+
+.message-screen_message_container {
+      flex: 1; /* este lo agregue ultimo ojo */
+      width: 70%;
+      background-image: url(../../../public/fondo-whasapp2.jpg);
+      background-size: contain;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      overflow-y: scroll;
+}
+
+@media screen and (min-width: 2000px) {
+  .message-screen_left {
+    width: 500px; /* o cualquier valor más grande */
+  }
+
+  .message-screen_message_container {
+    width: calc(100% - 500px);
+    background-size: cover;
+  }
+
+}
+
+@media screen and (max-width: 790px){
+
+.message-screen_container-navLateral{
+      display: none;
+}
+
+.message-screen_left{
+      margin-left: 0;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+      .message-screen{
+            flex-direction: column;
+      }
+
+
+      .message-screen_left{
+            width: 100%;
+            height: auto;
+      }
+
+      .message-screen_left{
+            display: none;
+      }
+
+      .message-screen_message_container{
+            width: 100%;
+            flex: 1;
+      }
+
+}
+
+
+ /* -----------message screen section END---------- */
+
+

@@ -1,0 +1,83 @@
+ /* ----------- contact header section---------- */
+
+.contact-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    color: #202c33;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    justify-content: space-between;
+    height: 80px;
+}
+
+.contact-header_contact{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.contact-header_img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.icon_a{
+    text-decoration: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.icon_a:hover{
+    background-color: white;
+    transform: scale(1.2);
+}
+
+.contact-header_info h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contact-header_info span {
+    font-size: 13px;
+    color: #b1b3b5;
+}
+
+.contact-header_actions{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    position: relative;
+    align-items: center;
+
+}
+
+
+.header-icon {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #000;
+    transition: color 0.2s ease;
+}
+
+.header-icon:hover {
+    color: #7e7b7b;
+}
+
+@media screen and (max-width: 360px){
+
+    .contact-header_info h3{
+        font-size: 14px;
+    }
+}
+
+
+
+  /* ----------- contact header section END---------- */
