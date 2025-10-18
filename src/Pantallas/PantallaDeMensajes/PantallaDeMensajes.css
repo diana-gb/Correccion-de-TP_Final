@@ -55,7 +55,7 @@
 }
 
 .message-screen_message_container {
-      width: calc(100% - 500px);
+      width: calc(100% - 400px);
       background-size: cover;
 }
 
