@@ -18,9 +18,6 @@
       height: 100%;
       margin-left: 70px;
       background-color: white;
-/*       flex: 0 0 25%;
-      max-width: 500px;
-      min-width: 300px; */
 }
 
 .message-screen_left-header{
@@ -54,7 +51,7 @@
 
 @media screen and (min-width: 2000px) {
 .message-screen_left {
-      width: 1000px; /* o cualquier valor más grande */
+      width: 1000px; 
 }
 
 .message-screen_message_container {
