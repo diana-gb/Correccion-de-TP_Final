@@ -13,7 +13,7 @@ const ListaDeContactos = () => {
         <div>
             {
         cargandoListaContactos
-        ? <span>Cargando contactos...</span>
+        ? <span><whatsAppSpinner/></span>
         : lista_contacto.map(
                     (contacto) => {
                         return (
