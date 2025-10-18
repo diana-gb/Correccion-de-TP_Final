@@ -48,6 +48,15 @@ width: 100vw;
 background-color: #f7f5f3;
 }
 
+@media screen and (max-width: 770px){
+
+    .home-screen_container-left{
+        gap: 5px;
+    }
+
+}
+
+
 @media screen and (max-width: 730px){
 
     .home-screen_container-right{
