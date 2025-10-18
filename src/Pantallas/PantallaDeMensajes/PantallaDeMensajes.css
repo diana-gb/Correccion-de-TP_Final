@@ -53,14 +53,14 @@
 }
 
 @media screen and (min-width: 2000px) {
-  .message-screen_left {
-    width: 500px; /* o cualquier valor más grande */
-  }
+.message-screen_left {
+      width: 1000px; /* o cualquier valor más grande */
+}
 
-  .message-screen_message_container {
-    width: calc(100% - 500px);
-    background-size: cover;
-  }
+.message-screen_message_container {
+      width: calc(100% - 500px);
+      background-size: cover;
+}
 
 }
 
