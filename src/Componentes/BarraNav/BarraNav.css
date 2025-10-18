@@ -48,7 +48,7 @@ header h2{
         display: none;
     } */
 
-    .nav-mobil{
+/*     .nav-mobil{
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -58,7 +58,7 @@ header h2{
         width: 100%;
         background-color: white;
         top: 70px;
-    }
+    } */
 
     .btn-menu{
         display: flex;
