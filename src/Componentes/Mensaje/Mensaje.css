@@ -62,9 +62,22 @@ margin: 8px 0;
 
 @media screen and (min-width: 2000px) {
 
-  .message-content {
-    max-width: 30%; 
-  }
+.message-content {
+    max-width: 40%; 
+}
+
+.message-author{
+    font-size: 20px;
+}
+
+.message-text{
+    font-size: 18px;
+}
+
+.message-hour{
+    font-size: 15px;
+}
+
 }
 
 @media screen and (max-width: 590px){
