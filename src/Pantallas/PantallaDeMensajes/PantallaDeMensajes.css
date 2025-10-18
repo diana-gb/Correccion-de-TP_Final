@@ -51,11 +51,11 @@
 
 @media screen and (min-width: 2000px) {
 .message-screen_left {
-      width: 800px; 
+      width: 600px; 
 }
 
 .message-screen_message_container {
-      width: calc(100% - 400px);
+      width: calc(100% - 200px);
       background-size: cover;
 }
 
