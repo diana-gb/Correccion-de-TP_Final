@@ -35,7 +35,6 @@ const {cargandoContacto, contactoDetalle, crearNuevoMensaje} = useContext(Contex
             </div>
             <div className="message-screen_message_container">
               <EncabezadoDeContacto/>
-              
                   {
                     cargandoContacto ? 
                     <CargandoContenido/> 

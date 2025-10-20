@@ -3,12 +3,12 @@ import ICONOS from '../../Constantes/iconos'
 import './InfoContacto.css'
 
 const InfoContacto = () => {
-      const [is_open, setIsOpen]= useState(false)
-      const toggleMenu = () =>{
-          setIsOpen(!is_open)
-      }
-  
-  
+    const [is_open, setIsOpen]= useState(false)
+    const toggleMenu = () =>{
+        setIsOpen(!is_open)
+}
+
+
     return (
     <div>
         <button className="header-icon">
@@ -25,11 +25,12 @@ const InfoContacto = () => {
         {
             is_open &&
             <div className='info-content'>
-                No hay informacion del contacto <br /> Es posible que te hayan bloqueado
+                No hay informacion del contacto <br /> Es posible que te hayan bloqueado <br/>
+                <span>ir a contactos <a href="/"><ICONOS.flecha/></a></span>
             </div>
         }
-     </div>
-  )
+    </div>
+)
 }
 
 export default InfoContacto
