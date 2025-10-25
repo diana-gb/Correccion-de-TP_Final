@@ -33,7 +33,7 @@
     font-weight: 500;
 }
 
-.header-icon .header-icon:hover .btn_header-icon{
+.btn_header-icon{
     display: none;
 }
 
