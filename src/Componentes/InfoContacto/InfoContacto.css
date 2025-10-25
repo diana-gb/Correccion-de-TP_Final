@@ -1,7 +1,7 @@
 
 /* -----------Contact info section---------- */
 
-.header-icon {
+.header-icon, .btn_header-icon {
     background: none;
     border: none;
     font-size: 24px;
@@ -11,7 +11,7 @@
     gap: 15px;
 }
 
-.header-icon:hover {
+.header-icon:hover, .header-icon:hover {
     color: #7e7b7b;
 }
 
@@ -35,6 +35,17 @@
 
 .btn_header-icon{
     display: none;
+}
+
+@media screen and (max-width:770px){
+
+    .btn_header-icon{
+        display: flex;
+    }
+
+    .icons_container:nth-child(3){
+        display: none;
+    }
 }
 
 @media screen and (max-width: 470px){

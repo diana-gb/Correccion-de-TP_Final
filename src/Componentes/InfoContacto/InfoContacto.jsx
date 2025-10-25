@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import ICONOS from '../../Constantes/iconos'
 import './InfoContacto.css'
+import ListaDeContactos from '../ListaDeContactos/ListaDeContactos'
 
 const InfoContacto = () => {
     const [is_open, setIsOpen]= useState(false)
@@ -10,7 +11,7 @@ const InfoContacto = () => {
 
 
     return (
-    <div>
+    <div className='icons_container'>
         <button className="header-icon">
             <ICONOS.video/> 
         </button>
@@ -27,10 +28,13 @@ const InfoContacto = () => {
         </button>
         {
             is_open &&
-            <div className='info-content'>
+            <div>
+                <ListaDeContactos/>
+            </div>
+/*             <div className='info-content'>
                 No hay informacion del contacto <br /> Es posible que te hayan bloqueado <br/>
                 <span>ir a contactos <a href="/"><ICONOS.flecha/></a></span>
-            </div>
+            </div> */
         }
     </div>
 )
