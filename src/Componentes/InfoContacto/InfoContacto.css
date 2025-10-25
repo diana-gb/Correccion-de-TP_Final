@@ -15,9 +15,6 @@
     color: #7e7b7b;
 }
 
-.header-icon .header-icon:hover .btn_header-icon{
-    display: none;
-}
 
 
 .info-content{
@@ -34,6 +31,10 @@
     font-size: 14px;
     color: red;
     font-weight: 500;
+}
+
+.header-icon .header-icon:hover .btn_header-icon{
+    display: none;
 }
 
 @media screen and (max-width: 470px){
