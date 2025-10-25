@@ -17,8 +17,11 @@ const InfoContacto = () => {
         <button className="header-icon">
             <ICONOS.lupa />
         </button>
+        <button className='header-icon'>
+            <ICONOS.puntos/>
+        </button>
         <button
-        className="header-icon"
+        className="btn_header-icon"
         onClick={toggleMenu}>
             <ICONOS.puntos />
         </button>

@@ -15,6 +15,10 @@
     color: #7e7b7b;
 }
 
+.header-icon .header-icon:hover .btn_header-icon{
+    display: none;
+}
+
 
 .info-content{
     position: absolute;
