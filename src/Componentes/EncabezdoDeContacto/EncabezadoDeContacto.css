@@ -51,7 +51,7 @@
 .contact-header_actions{
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 25px;
     position: relative;
     align-items: center;
 
