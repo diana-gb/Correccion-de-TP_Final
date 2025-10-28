@@ -28,13 +28,38 @@ const InfoContacto = () => {
         </button>
         {
             is_open &&
-            <div>
-                <ListaDeContactos/>
-            </div>
-/*             <div className='info-content'>
-                No hay informacion del contacto <br /> Es posible que te hayan bloqueado <br/>
-                <span>ir a contactos <a href="/"><ICONOS.flecha/></a></span>
-            </div> */
+                <ul>
+                    <li>
+                        <button><ICONOS.info/> Info. del contacto</button>
+                    </li>
+                    <li>
+                        <button><ICONOS.check/> Seleccionar mensaje </button>
+                    </li>
+                    <li>
+                        <button><ICONOS.belloff/> Silenciar notificaciones</button>
+                    </li>
+                    <li>
+                        <button><ICONOS.timer/> Mensajes temporales</button>
+                    </li>
+                    <li>
+                        <button><ICONOS.close/> Cerrar chat</button>
+                    </li>
+
+                    <hr />
+
+                    <li>
+                        <button><ICONOS.report/> Reportar</button>
+                    </li>
+                    <li>
+                        <button><ICONOS.block/> Bloquear</button>
+                    </li>
+                    <li>
+                        <button><ICONOS.minus/> Vaciar chat</button>
+                    </li>
+                    <li>
+                        <button><ICONOS.trash/> Eliminar chat</button>
+                    </li>
+                </ul>
         }
     </div>
 )

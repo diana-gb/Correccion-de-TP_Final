@@ -17,7 +17,7 @@
 
 
 
-.info-content{
+/* .info-content{
     position: absolute;
     top: 40px;
     right: 0;
@@ -31,10 +31,18 @@
     font-size: 14px;
     color: red;
     font-weight: 500;
-}
+} */
 
 .btn_header-icon{
     display: none;
+}
+
+.list_container{
+    background-color: white;
+    margin-top: 700px;
+    display: flex;
+    width: 600px;
+    height: 100%;
 }
 
 @media screen and (max-width:770px){
@@ -43,7 +51,7 @@
         display: flex;
     }
 
-    .icons_container:nth-child(3){
+    .header-icon:nth-child(3){
         display: none;
     }
 }
